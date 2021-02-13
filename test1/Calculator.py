@@ -7,7 +7,8 @@ GUI based Calculator by Tkinter
 - кнопку очистки
 - обработка вещественных чисел (кнопко точки)
 - при добавлении цифр к числу < 1 исчезает 0, из-за обработки стартового нуля (example: 0.53 => .5346)
-
+- если начальному нулю добавить минус и добавить еще цифр, то у целого десятичного числа появляется ведущий ноль
+  (Error: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers)
 """
 
 import tkinter as tk
